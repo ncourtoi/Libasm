@@ -13,5 +13,5 @@ ft_strcpy:
     jmp .loop
 
 .end:
-    mov rdi, rax
+    mov rax, rdi
     ret
